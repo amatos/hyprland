@@ -1,6 +1,6 @@
 #!/bin/bash
 
-CONFIG="$HOME/.config/hypr/waybar/config"
+CONFIG="$HOME/.config/hypr/waybar/config.json"
 STYLE="$HOME/.config/hypr/waybar/style.css"
 
 if [[ ! $(pidof waybar) ]]; then
